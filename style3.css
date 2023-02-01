@@ -1,0 +1,323 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    height:56px;
+    width:100%;
+    box-shadow: 0px 1px 3px #ccc;
+    padding: 8px 13px 0px 13px;
+    position: sticky;
+    top: 0;
+    z-index: 3;
+    outline: none;
+    border: none;
+}
+.left-nav{
+    display: flex;
+    justify-content: space-between;
+    color: gray;
+    padding: 10px;
+}
+.left-nav .fa-magnifying-glass {
+    font-size: medium;
+    margin-right: 15px;
+}
+.middle-nav{
+    padding-top: 5px;
+}
+.middle-nav p {
+    border-style: solid;
+    color: gray;
+    border-color: rgba(0, 0, 0, 0.575);
+    padding: 5px 30px 5px 30px;
+
+}
+.right-nav{
+    display: flex;
+    justify-content: space-between;
+}
+.right-nav a {
+    text-decoration: none;
+    font-size: 15px;
+    color: gray;
+    margin: 10px;
+}
+.right-nav a :hover {
+    color: black;
+
+}
+.under-nav{
+    display: flex;
+    justify-content: center;
+    padding-top: 30px ;
+}
+.under-nav a {
+text-decoration: none;
+color: gray;
+margin: 15px;
+}
+.under-nav a:hover{
+    color: blueviolet;
+}
+.picture1{
+    position: relative;
+
+}
+.picture1 img {
+    width: 100%;
+}
+.text-box{
+    position: absolute;
+    width: 90%;
+    top: 30%;
+    left: 60%;
+    text-align: left;
+}
+.text-box p{
+    margin: 10px 0 40px;
+    font-size: 17px;
+}
+.head-bottun{
+    display: inline-block;
+    text-decoration: none;
+    border: 1px solid ;
+    padding: 12px 34px;
+    font-size: 16px;
+    margin-top: 10px;
+    border-radius: 5%;
+    color: #ccc;
+    background-color: blueviolet;
+    transition: 0.7s ease;
+}
+.head-bottun:hover {
+    background-color: rgba(137, 43, 226, 0.377);
+    transform:scale(1.1);
+}
+.main-page2{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.detail div{
+    display:flex;
+    width: 250px;
+    height: 200px;
+    border: 1px none;
+    padding: 20px;
+    margin: 15px;
+    position: absolute;
+    
+}
+.main-page2 i{
+    font-size: 30px;
+    color: blueviolet;
+    padding: 3px;
+    margin-right: 5px;
+    
+}
+    
+.detail h1{
+    font-size: 17px;
+    
+}
+.detail p{
+    font: size 10px;;
+    color: gray;
+    top: 50px;
+    position: relative;
+    margin: 10px;
+    margin-left: 85px;   
+}
+
+.main-page3{
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    
+    
+}
+.card{
+    padding: 25px;
+    margin: 15px; 
+    transition: 0.9s ease;
+    position: relative;
+}
+.card:hover{
+    transform:scale(1.1);
+}
+    
+.card h5 {
+    position: absolute;
+    bottom: 90px;
+    font-size: 15px;
+    color: aliceblue;
+    margin-left: 5px;
+    padding: 10px;
+    
+}
+.card h1{
+    position: absolute;
+    bottom: 50px;
+    font-size: 25px;
+    padding: 10px;
+    margin: 5px;
+    color: aliceblue;   
+}
+.main-page4{
+    background-color: rgb(228, 228, 228);
+}
+.title4 {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+    padding: 10px;
+    color: black;
+    font-size: 30px;  
+    padding-top: 50px; 
+    font-weight: 400;
+}
+.content4{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+.card4{
+    background-color:white;
+    padding: 5px;
+    margin: 15px;
+}
+.info h3{
+    text-align: center;
+    color: blueviolet;
+    font-size: 17px;
+    font-weight: 400;
+    margin: 8px;
+}
+.info p{
+    text-align: center;
+    color: rgba(104, 101, 101, 0.363);
+}
+.info .price{
+    color: blueviolet;
+}
+.title-5{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+    padding: 10px;
+    color: black;
+    font-size: 30px;  
+    padding-top: 50px; 
+    font-weight: 400;
+}
+.content5{
+    display: flex;
+    justify-content: center;
+
+}
+.card5{
+    padding: 5px;
+    margin: 15px;
+}
+.card5 h3{
+    color: blueviolet;
+    font-size: 30px;
+    font-weight: 400;
+    padding-bottom: 15px;
+}
+.card5 p{
+    text-align: center;
+    color: #ccc;
+    font-size: 17px;
+}
+
+.bottun5{
+    display: inline-block;
+    text-decoration: none;
+    border: 1px solid ;
+    padding: 12px 34px;
+    font-size: 16px;
+    margin-top: 20px;
+    margin-left: 80px;
+    border-radius: 8%;
+    color: #ccc;
+    background-color: blueviolet;
+    transition: 0.7s ease;
+}
+.bottun5:hover {
+    background-color: rgba(137, 43, 226, 0.377);
+    transform:scale(1.1);
+}
+/*home page*/
+
+.home {
+    background-color: rgb(224, 223, 223);
+    height: 50px;
+    display: flex;
+
+}
+.home p{
+    padding: 15px;
+    margin-right:  -20px ;
+    margin-top: 10px;
+}
+.home .home1{
+    padding: 15px;
+    margin-left: 30px;
+    margin-top: 10px;
+    color: blueviolet;
+}
+.home-page1 {
+    margin-top: 40px;
+}
+.home-page1 .card5 h3{
+    margin-left: 100px;
+    color: black;
+}
+.home-page1 .card5 p{
+    text-align: left;
+    margin-left: 100px;
+    margin-top: 10px;
+    color: gray;
+}
+
+
+.our-team{
+    display: flex;
+    justify-content:center;
+    flex-direction: row;
+    margin-left: 50px;
+    margin-bottom: 100px;
+}
+.team-card{
+    margin: 15px;
+    padding: 10px;
+}
+.team-card img{
+    margin-left: 70px;
+    font-size: 40px;
+    border-radius: 50%;
+    margin-bottom: 15px;
+}
+.team-card h3{
+    margin-left: 10px;
+    margin-bottom: 7px;
+    text-align: center;
+}
+.team-card p{
+    font-size: 14px;
+    text-align: center;
+    color: rgb(190, 190, 190);
+}
+
+
+
+
+
